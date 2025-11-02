@@ -171,3 +171,73 @@ p{
 .link :hover{
    color: #09111d;
 }
+
+
+
+/* ----------- RESPONSIVE ----------- */
+@media (max-width: 768px) {
+
+    .cont1 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .cont5 {
+        left: 0;
+        bottom: 0;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 48px;
+        bottom: 0;
+    }
+
+    h2 {
+        width: 100%;
+        padding: 0 20px;
+        bottom: 0;
+        font-size: 20px;
+    }
+
+    .frm {
+        left: 0;
+        bottom: 0;
+        width: 90%;
+        max-width: 380px;
+        height: auto;
+        padding: 20px;
+    }
+
+    .inp1 {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        left: 0;
+    }
+
+    .btn1 {
+        left: 0;
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .link {
+        left: 0;
+        justify-content: center;
+    }
+
+    p {
+        top: 2em;
+        right: 0;
+        width: 100%;
+        font-size: 14px;
+        padding: 0 10px;
+        text-align: center;
+    }
+}
